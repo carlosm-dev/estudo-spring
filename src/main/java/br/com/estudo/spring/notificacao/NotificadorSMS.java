@@ -8,10 +8,6 @@ import br.com.estudo.spring.modelo.Cliente;
 public class NotificadorSMS implements Notificador {
 	
 	
-	public NotificadorSMS() {
-		System.out.println("Chamou NotificadorSMS");
-	}
-	
 	@Override
 	public void notificar(Cliente cliente, String mensagem) {
 		System.out.printf("O cliente %s foi notificado por sms. %s\n", cliente.getNome(), mensagem);

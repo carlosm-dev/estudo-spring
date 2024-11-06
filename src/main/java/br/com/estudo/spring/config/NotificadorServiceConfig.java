@@ -9,9 +9,6 @@ import br.com.estudo.spring.service.NotificadorService;
 @Configuration
 public class NotificadorServiceConfig {
 	
-	public NotificadorServiceConfig() {
-		System.out.println("Chamou NotificadorServiceConfig");
-	}
 	
 	@Bean
 	public NotificadorService notificadorService(Notificador notificador) {

@@ -9,9 +9,6 @@ import br.com.estudo.spring.notificacao.NotificadorEMail;
 @Configuration
 public class NotificadorConfig {
 	
-	public NotificadorConfig() {
-		System.out.println("Chamou NotificadorConfig");
-	}
 	
 	@Bean
 	@Primary

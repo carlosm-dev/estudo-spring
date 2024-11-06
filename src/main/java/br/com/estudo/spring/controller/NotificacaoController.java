@@ -18,7 +18,6 @@ public class NotificacaoController {
 	@Autowired
 	public NotificacaoController(NotificadorService notificadorService) {
 		this.notificadorService = notificadorService;
-		System.out.println("Chamou NotificacaoController");
 	}
 	
 	@GetMapping()
@@ -29,14 +28,5 @@ public class NotificacaoController {
 		
 		return "notificou";
 	}
-	
-//	@GetMapping("/{telefone}")
-//	@ResponseBody
-//	public String notificar(@RequestParam(value = "telefone", required = false)  String telefone) {
-//		Cliente maria = new Cliente("Maria", telefone);
-//		notificadorService.notificar(maria);
-//		
-//		return "notificou";
-//	}
 
 }

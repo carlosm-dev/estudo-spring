@@ -10,7 +10,6 @@ public class NotificadorEMail implements Notificador {
 	
 	public NotificadorEMail(String hostServidorSmtp) {
 		this.hostServidorSmtp = hostServidorSmtp;
-		System.out.println("Chamou NotificadorEMail");
 	}
 	
 	@Override

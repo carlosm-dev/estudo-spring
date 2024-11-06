@@ -10,7 +10,6 @@ public class NotificadorService {
 	
 	public NotificadorService(Notificador notificador) {
 		this.notificador = notificador;
-		System.out.println("Chamou NotificadorService");
 	}
 	
 	public void notificar(Cliente cliente) {
